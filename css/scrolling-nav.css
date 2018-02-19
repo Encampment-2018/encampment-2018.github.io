@@ -37,4 +37,5 @@ section {
   background-image: url("../images/temp1.jpg");
   background-size: 2100px;
   text-shadow: 2px 2px black;
+  background-position: center bottom;
 }
