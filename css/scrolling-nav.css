@@ -10,10 +10,31 @@ header {
 
 @media (min-width: 992px) {
   header {
-    padding: 156px 0 100px;
+    padding: 121px 0 75px;
   }
 }
 
 section {
-  padding: 150px 0;
+  padding: 120px 0;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.bg-primary {
+  background-image: url("../images/temp3.png");
+  background-size: 2100px;
+  text-shadow: 2px 2px black;
 }
